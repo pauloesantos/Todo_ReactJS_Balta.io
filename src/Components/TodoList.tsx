@@ -5,8 +5,7 @@ import TodoListItem from "./TodoListitem"
 
 const TodoList = () => {
     const todos: Todo[] = [
-        { id: 1, title: 'Cinema', done: false },
-        { id: 2, title: 'Carros', done: true }
+
     ];
     return (
         <table className="uk-table">
