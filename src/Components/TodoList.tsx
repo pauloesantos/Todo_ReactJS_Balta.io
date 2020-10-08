@@ -1,5 +1,5 @@
 import React from 'react';
-import { Todo } from "../Models/Todo"
+import { Todo } from "../models/Todo"
 import TodoListItem from "./TodoListitem"
 
 
