@@ -11,3 +11,8 @@ export const get = (): Todo[] => {
         return [];
     }
 }
+
+export const save = (data: Todo[]) => {
+    if (data?.length >= 1)
+        localStorage.setItem(TODO_STORE, JSON.stringify(data));
+}
